@@ -1,4 +1,4 @@
--- SP1RIT SCRIPT
+-- sp1rit script
 -- Version: 3.2
 
 -- Instances:
@@ -24,16 +24,16 @@ TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 0.990
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.087859422, 0, 0.111904763, 0)
-TextLabel.Size = UDim2.new(0, 517, 0, 346)
+TextLabel.Position = UDim2.new(0.308306724, 0, 0.416666597, 0)
+TextLabel.Size = UDim2.new(0, 241, 0, 83)
 TextLabel.Font = Enum.Font.Unknown
 TextLabel.Text = "IS CURENTLY DOWN PLZ WAIT UPDATING..."
 TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.TextSize = 29.000
+TextLabel.TextSize = 21.000
 
 -- Scripts:
 
-local function WYANY_fake_script() -- Frame.LocalScript 
+local function PVXPL_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	
@@ -54,4 +54,26 @@ local function WYANY_fake_script() -- Frame.LocalScript
 	UserInputService.InputBegan:connect(onKeyPress)
 	local Frame = script.Parent
 end
-coroutine.wrap(WYANY_fake_script)()
+coroutine.wrap(PVXPL_fake_script)()
+local function DORLM_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	Frame = script.Parent.Frame
+	
+	Frame.Draggable = true
+	Frame.Selectable = true
+	Frame.Active = true
+	
+end
+coroutine.wrap(DORLM_fake_script)()
+local function LBGJ_fake_script() -- indexfree.LocalScript 
+	local script = Instance.new('LocalScript', indexfree)
+
+	Frame = script.Parent.Frame
+	
+	Frame.Draggable = true
+	Frame.Selectable = true
+	Frame.Active = true
+	
+end
+coroutine.wrap(LBGJ_fake_script)()
