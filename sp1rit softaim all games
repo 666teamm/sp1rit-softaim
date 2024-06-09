@@ -3,12 +3,17 @@
 
 -- Instances:
 
+local indexfree = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
 
 --Properties:
 
-Frame.Parent = game.StarterGui["index  [free]"]
+indexfree.Name = "index  [free]"
+indexfree.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+indexfree.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = indexfree
 Frame.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 Frame.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Frame.Position = UDim2.new(0.205529466, 0, 0.11818856, 0)
@@ -28,7 +33,7 @@ TextLabel.TextSize = 21.000
 
 -- Scripts:
 
-local function FBUN_fake_script() -- Frame.LocalScript 
+local function TBRZPMN_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	
@@ -49,8 +54,8 @@ local function FBUN_fake_script() -- Frame.LocalScript
 	UserInputService.InputBegan:connect(onKeyPress)
 	local Frame = script.Parent
 end
-coroutine.wrap(FBUN_fake_script)()
-local function PWWVH_fake_script() -- Frame.LocalScript 
+coroutine.wrap(TBRZPMN_fake_script)()
+local function RDFMQQM_fake_script() -- Frame.LocalScript 
 	local script = Instance.new('LocalScript', Frame)
 
 	Frame = script.Parent.Frame
@@ -60,4 +65,37 @@ local function PWWVH_fake_script() -- Frame.LocalScript
 	Frame.Active = true
 	
 end
-coroutine.wrap(PWWVH_fake_script)()
+coroutine.wrap(RDFMQQM_fake_script)()
+local function HTCQXPL_fake_script() -- Frame.LocalScript 
+	local script = Instance.new('LocalScript', Frame)
+
+	Frame = script.Parent.Frame
+	
+	Frame.Draggable = true
+	Frame.Selectable = true
+	Frame.Active = true
+	
+end
+coroutine.wrap(HTCQXPL_fake_script)()
+local function WCLGAE_fake_script() -- indexfree.LocalScript 
+	local script = Instance.new('LocalScript', indexfree)
+
+	Frame = script.Parent.Frame
+	
+	Frame.Draggable = true
+	Frame.Selectable = true
+	Frame.Active = true
+	
+end
+coroutine.wrap(WCLGAE_fake_script)()
+local function BTGR_fake_script() -- indexfree.LocalScript 
+	local script = Instance.new('LocalScript', indexfree)
+
+	Frame = script.Parent.Frame
+	
+	Frame.Draggable = true
+	Frame.Selectable = true
+	Frame.Active = true
+	
+end
+coroutine.wrap(BTGR_fake_script)()
